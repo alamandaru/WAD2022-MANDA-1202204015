@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Nov 20, 2022 at 03:47 PM
+-- Generation Time: Nov 22, 2022 at 03:56 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -39,6 +39,15 @@ CREATE TABLE `showroom_manda_table` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `showroom_manda_table`
+--
+
+INSERT INTO `showroom_manda_table` (`id_mobil`, `nama_mobil`, `pemilik_mobil`, `merk_mobil`, `tanggal_beli`, `deskripsi`, `foto_mobil`, `status_pembayaran`) VALUES
+(6, '320i Dynamic', 'Maemunah', 'BMW', '2022-11-16', 'Mobil bagus dan masih baru', 'mobil', 'lunas'),
+(8, 'Wuling a', 'Regita', 'Wuling', '0000-00-00', 'Bagus', 'Wuling', 'Lunas'),
+(9, 'Wuling a', 'Regita', 'Wuling', '0000-00-00', 'Bagus', 'Wuling', 'Lunas');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -56,7 +65,7 @@ ALTER TABLE `showroom_manda_table`
 -- AUTO_INCREMENT for table `showroom_manda_table`
 --
 ALTER TABLE `showroom_manda_table`
-  MODIFY `id_mobil` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_mobil` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

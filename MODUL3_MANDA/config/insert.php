@@ -25,7 +25,8 @@ include ("koneksi.php");
   } else {
     //tampil alert dan akan redirect ke halaman index.php
     //silahkan ganti index.php sesuai halaman yang akan dituju
-    echo "<script>alert('Data berhasil ditambah.');window.location='../myshowroom.php';</script>";
+    // echo "<script>alert('Data berhasil ditambah.');window.location='../myshowroom.php';</script>";
+    echo "<meta http-equiv='refresh' content='1 url=../myshowroom.php'>";
   }
 
  
