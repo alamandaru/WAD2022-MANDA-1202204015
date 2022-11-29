@@ -3,9 +3,9 @@
 session_start();
 include("koneksi.php");
 
-if(isset($_POST['submit'])){
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+if(isset($_GET['submit'])){
+    $email = $_GET['email'];
+    $password = $_GET['password'];
     
     $query = "SELECT * FROM user_manda WHERE email='$email'";
     $select = mysqli_query($koneksi,$query);

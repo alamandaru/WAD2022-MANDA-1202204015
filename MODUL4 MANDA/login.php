@@ -13,7 +13,7 @@
               <img src="asset/car.jpg" alt="" style="max-height: 960px;width: 100%;">
             </div>
             <div class="col my-auto mx-5 px-5">
-                <form method="POST" action="config/login.php">
+                <form method="GET" action="config/login.php">
                     <h1>Login</h1>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email</label>
