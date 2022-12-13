@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Showrooms extends Model
 {
     use HasFactory;
-    protected $guarded = ['id'];
+    $guarded = ['id'];
 }
